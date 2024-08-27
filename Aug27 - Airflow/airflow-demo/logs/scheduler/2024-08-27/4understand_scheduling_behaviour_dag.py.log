@@ -1,0 +1,18 @@
+[2024-08-27T12:00:22.951+0000] {processor.py:153} INFO - Started process (PID=51) to work on /opt/airflow/dags/4understand_scheduling_behaviour_dag.py
+[2024-08-27T12:00:22.982+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/4understand_scheduling_behaviour_dag.py for tasks to queue
+[2024-08-27T12:00:23.005+0000] {logging_mixin.py:137} INFO - [2024-08-27T12:00:23.005+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/4understand_scheduling_behaviour_dag.py
+[2024-08-27T12:00:23.160+0000] {processor.py:753} INFO - DAG(s) dict_keys(['understanding_scheduling_behavior']) retrieved from /opt/airflow/dags/4understand_scheduling_behaviour_dag.py
+[2024-08-27T12:00:23.494+0000] {logging_mixin.py:137} INFO - [2024-08-27T12:00:23.494+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:understanding_scheduling_behavior
+[2024-08-27T12:00:23.547+0000] {logging_mixin.py:137} INFO - [2024-08-27T12:00:23.546+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:understanding_scheduling_behavior
+[2024-08-27T12:00:23.584+0000] {logging_mixin.py:137} INFO - [2024-08-27T12:00:23.584+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:understanding_scheduling_behavior
+[2024-08-27T12:00:23.585+0000] {logging_mixin.py:137} INFO - [2024-08-27T12:00:23.585+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-08-27T12:00:23.609+0000] {logging_mixin.py:137} INFO - [2024-08-27T12:00:23.609+0000] {dag.py:2711} INFO - Creating ORM DAG for understanding_scheduling_behavior
+[2024-08-27T12:00:23.635+0000] {logging_mixin.py:137} INFO - [2024-08-27T12:00:23.635+0000] {dag.py:3441} INFO - Setting next_dagrun for understanding_scheduling_behavior to 2024-08-26T07:25:00+00:00, run_after=2024-08-27T07:25:00+00:00
+[2024-08-27T12:00:23.686+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/4understand_scheduling_behaviour_dag.py took 0.748 seconds
+[2024-08-27T12:00:53.971+0000] {processor.py:153} INFO - Started process (PID=144) to work on /opt/airflow/dags/4understand_scheduling_behaviour_dag.py
+[2024-08-27T12:00:53.973+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/4understand_scheduling_behaviour_dag.py for tasks to queue
+[2024-08-27T12:00:53.974+0000] {logging_mixin.py:137} INFO - [2024-08-27T12:00:53.974+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/4understand_scheduling_behaviour_dag.py
+[2024-08-27T12:00:54.009+0000] {processor.py:753} INFO - DAG(s) dict_keys(['understanding_scheduling_behavior']) retrieved from /opt/airflow/dags/4understand_scheduling_behaviour_dag.py
+[2024-08-27T12:00:54.046+0000] {logging_mixin.py:137} INFO - [2024-08-27T12:00:54.046+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-08-27T12:00:54.081+0000] {logging_mixin.py:137} INFO - [2024-08-27T12:00:54.081+0000] {dag.py:3441} INFO - Setting next_dagrun for understanding_scheduling_behavior to 2024-08-26T07:25:00+00:00, run_after=2024-08-27T07:25:00+00:00
+[2024-08-27T12:00:54.109+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/4understand_scheduling_behaviour_dag.py took 0.144 seconds
